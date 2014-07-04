@@ -7,150 +7,150 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03D4C9421963FE3A006AAFCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03D4C9411963FE3A006AAFCE /* Foundation.framework */; };
-		03D4C9441963FE3A006AAFCE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03D4C9431963FE3A006AAFCE /* CoreGraphics.framework */; };
-		03D4C9461963FE3A006AAFCE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03D4C9451963FE3A006AAFCE /* UIKit.framework */; };
-		03D4C94C1963FE3A006AAFCE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03D4C94A1963FE3A006AAFCE /* InfoPlist.strings */; };
-		03D4C94E1963FE3A006AAFCE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D4C94D1963FE3A006AAFCE /* main.m */; };
-		03D4C9521963FE3A006AAFCE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D4C9511963FE3A006AAFCE /* AppDelegate.m */; };
-		03D4C9551963FE3A006AAFCE /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03D4C9531963FE3A006AAFCE /* Main_iPhone.storyboard */; };
-		03D4C9581963FE3A006AAFCE /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03D4C9561963FE3A006AAFCE /* Main_iPad.storyboard */; };
-		03D4C95B1963FE3A006AAFCE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D4C95A1963FE3A006AAFCE /* ViewController.m */; };
-		03D4C95D1963FE3A006AAFCE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03D4C95C1963FE3A006AAFCE /* Images.xcassets */; };
-		03D4C9641963FE3A006AAFCE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03D4C9631963FE3A006AAFCE /* XCTest.framework */; };
-		03D4C9651963FE3A006AAFCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03D4C9411963FE3A006AAFCE /* Foundation.framework */; };
-		03D4C9661963FE3A006AAFCE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03D4C9451963FE3A006AAFCE /* UIKit.framework */; };
-		03D4C96E1963FE3A006AAFCE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03D4C96C1963FE3A006AAFCE /* InfoPlist.strings */; };
-		03D4C9701963FE3A006AAFCE /* GoTubeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D4C96F1963FE3A006AAFCE /* GoTubeTests.m */; };
+		039100131966D72C00BC6E60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 039100121966D72C00BC6E60 /* Foundation.framework */; };
+		039100151966D72C00BC6E60 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 039100141966D72C00BC6E60 /* CoreGraphics.framework */; };
+		039100171966D72C00BC6E60 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 039100161966D72C00BC6E60 /* UIKit.framework */; };
+		0391001D1966D72C00BC6E60 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0391001B1966D72C00BC6E60 /* InfoPlist.strings */; };
+		0391001F1966D72C00BC6E60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0391001E1966D72C00BC6E60 /* main.m */; };
+		039100231966D72C00BC6E60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 039100221966D72C00BC6E60 /* AppDelegate.m */; };
+		039100261966D72C00BC6E60 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 039100241966D72C00BC6E60 /* Main_iPhone.storyboard */; };
+		039100291966D72C00BC6E60 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 039100271966D72C00BC6E60 /* Main_iPad.storyboard */; };
+		0391002C1966D72C00BC6E60 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0391002B1966D72C00BC6E60 /* ViewController.m */; };
+		0391002E1966D72C00BC6E60 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0391002D1966D72C00BC6E60 /* Images.xcassets */; };
+		039100351966D72C00BC6E60 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 039100341966D72C00BC6E60 /* XCTest.framework */; };
+		039100361966D72C00BC6E60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 039100121966D72C00BC6E60 /* Foundation.framework */; };
+		039100371966D72C00BC6E60 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 039100161966D72C00BC6E60 /* UIKit.framework */; };
+		0391003F1966D72C00BC6E60 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0391003D1966D72C00BC6E60 /* InfoPlist.strings */; };
+		039100411966D72C00BC6E60 /* GoTubeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 039100401966D72C00BC6E60 /* GoTubeTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		03D4C9671963FE3A006AAFCE /* PBXContainerItemProxy */ = {
+		039100381966D72C00BC6E60 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 03D4C9361963FE3A006AAFCE /* Project object */;
+			containerPortal = 039100071966D72B00BC6E60 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 03D4C93D1963FE3A006AAFCE;
+			remoteGlobalIDString = 0391000E1966D72C00BC6E60;
 			remoteInfo = GoTube;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03D4C93E1963FE3A006AAFCE /* GoTube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoTube.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		03D4C9411963FE3A006AAFCE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		03D4C9431963FE3A006AAFCE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		03D4C9451963FE3A006AAFCE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		03D4C9491963FE3A006AAFCE /* GoTube-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoTube-Info.plist"; sourceTree = "<group>"; };
-		03D4C94B1963FE3A006AAFCE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		03D4C94D1963FE3A006AAFCE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		03D4C94F1963FE3A006AAFCE /* GoTube-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GoTube-Prefix.pch"; sourceTree = "<group>"; };
-		03D4C9501963FE3A006AAFCE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		03D4C9511963FE3A006AAFCE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		03D4C9541963FE3A006AAFCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		03D4C9571963FE3A006AAFCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		03D4C9591963FE3A006AAFCE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		03D4C95A1963FE3A006AAFCE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		03D4C95C1963FE3A006AAFCE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		03D4C9621963FE3A006AAFCE /* GoTubeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoTubeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		03D4C9631963FE3A006AAFCE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		03D4C96B1963FE3A006AAFCE /* GoTubeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoTubeTests-Info.plist"; sourceTree = "<group>"; };
-		03D4C96D1963FE3A006AAFCE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		03D4C96F1963FE3A006AAFCE /* GoTubeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoTubeTests.m; sourceTree = "<group>"; };
+		0391000F1966D72C00BC6E60 /* GoTube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoTube.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		039100121966D72C00BC6E60 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		039100141966D72C00BC6E60 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		039100161966D72C00BC6E60 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0391001A1966D72C00BC6E60 /* GoTube-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoTube-Info.plist"; sourceTree = "<group>"; };
+		0391001C1966D72C00BC6E60 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0391001E1966D72C00BC6E60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		039100201966D72C00BC6E60 /* GoTube-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GoTube-Prefix.pch"; sourceTree = "<group>"; };
+		039100211966D72C00BC6E60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		039100221966D72C00BC6E60 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		039100251966D72C00BC6E60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		039100281966D72C00BC6E60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		0391002A1966D72C00BC6E60 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0391002B1966D72C00BC6E60 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0391002D1966D72C00BC6E60 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		039100331966D72C00BC6E60 /* GoTubeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoTubeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		039100341966D72C00BC6E60 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0391003C1966D72C00BC6E60 /* GoTubeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoTubeTests-Info.plist"; sourceTree = "<group>"; };
+		0391003E1966D72C00BC6E60 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		039100401966D72C00BC6E60 /* GoTubeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoTubeTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		03D4C93B1963FE3A006AAFCE /* Frameworks */ = {
+		0391000C1966D72C00BC6E60 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03D4C9441963FE3A006AAFCE /* CoreGraphics.framework in Frameworks */,
-				03D4C9461963FE3A006AAFCE /* UIKit.framework in Frameworks */,
-				03D4C9421963FE3A006AAFCE /* Foundation.framework in Frameworks */,
+				039100151966D72C00BC6E60 /* CoreGraphics.framework in Frameworks */,
+				039100171966D72C00BC6E60 /* UIKit.framework in Frameworks */,
+				039100131966D72C00BC6E60 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		03D4C95F1963FE3A006AAFCE /* Frameworks */ = {
+		039100301966D72C00BC6E60 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03D4C9641963FE3A006AAFCE /* XCTest.framework in Frameworks */,
-				03D4C9661963FE3A006AAFCE /* UIKit.framework in Frameworks */,
-				03D4C9651963FE3A006AAFCE /* Foundation.framework in Frameworks */,
+				039100351966D72C00BC6E60 /* XCTest.framework in Frameworks */,
+				039100371966D72C00BC6E60 /* UIKit.framework in Frameworks */,
+				039100361966D72C00BC6E60 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03D4C9351963FE3A006AAFCE = {
+		039100061966D72B00BC6E60 = {
 			isa = PBXGroup;
 			children = (
-				03D4C9471963FE3A006AAFCE /* GoTube */,
-				03D4C9691963FE3A006AAFCE /* GoTubeTests */,
-				03D4C9401963FE3A006AAFCE /* Frameworks */,
-				03D4C93F1963FE3A006AAFCE /* Products */,
+				039100181966D72C00BC6E60 /* GoTube */,
+				0391003A1966D72C00BC6E60 /* GoTubeTests */,
+				039100111966D72C00BC6E60 /* Frameworks */,
+				039100101966D72C00BC6E60 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		03D4C93F1963FE3A006AAFCE /* Products */ = {
+		039100101966D72C00BC6E60 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				03D4C93E1963FE3A006AAFCE /* GoTube.app */,
-				03D4C9621963FE3A006AAFCE /* GoTubeTests.xctest */,
+				0391000F1966D72C00BC6E60 /* GoTube.app */,
+				039100331966D72C00BC6E60 /* GoTubeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		03D4C9401963FE3A006AAFCE /* Frameworks */ = {
+		039100111966D72C00BC6E60 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				03D4C9411963FE3A006AAFCE /* Foundation.framework */,
-				03D4C9431963FE3A006AAFCE /* CoreGraphics.framework */,
-				03D4C9451963FE3A006AAFCE /* UIKit.framework */,
-				03D4C9631963FE3A006AAFCE /* XCTest.framework */,
+				039100121966D72C00BC6E60 /* Foundation.framework */,
+				039100141966D72C00BC6E60 /* CoreGraphics.framework */,
+				039100161966D72C00BC6E60 /* UIKit.framework */,
+				039100341966D72C00BC6E60 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		03D4C9471963FE3A006AAFCE /* GoTube */ = {
+		039100181966D72C00BC6E60 /* GoTube */ = {
 			isa = PBXGroup;
 			children = (
-				03D4C9501963FE3A006AAFCE /* AppDelegate.h */,
-				03D4C9511963FE3A006AAFCE /* AppDelegate.m */,
-				03D4C9531963FE3A006AAFCE /* Main_iPhone.storyboard */,
-				03D4C9561963FE3A006AAFCE /* Main_iPad.storyboard */,
-				03D4C9591963FE3A006AAFCE /* ViewController.h */,
-				03D4C95A1963FE3A006AAFCE /* ViewController.m */,
-				03D4C95C1963FE3A006AAFCE /* Images.xcassets */,
-				03D4C9481963FE3A006AAFCE /* Supporting Files */,
+				039100211966D72C00BC6E60 /* AppDelegate.h */,
+				039100221966D72C00BC6E60 /* AppDelegate.m */,
+				039100241966D72C00BC6E60 /* Main_iPhone.storyboard */,
+				039100271966D72C00BC6E60 /* Main_iPad.storyboard */,
+				0391002A1966D72C00BC6E60 /* ViewController.h */,
+				0391002B1966D72C00BC6E60 /* ViewController.m */,
+				0391002D1966D72C00BC6E60 /* Images.xcassets */,
+				039100191966D72C00BC6E60 /* Supporting Files */,
 			);
 			path = GoTube;
 			sourceTree = "<group>";
 		};
-		03D4C9481963FE3A006AAFCE /* Supporting Files */ = {
+		039100191966D72C00BC6E60 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				03D4C9491963FE3A006AAFCE /* GoTube-Info.plist */,
-				03D4C94A1963FE3A006AAFCE /* InfoPlist.strings */,
-				03D4C94D1963FE3A006AAFCE /* main.m */,
-				03D4C94F1963FE3A006AAFCE /* GoTube-Prefix.pch */,
+				0391001A1966D72C00BC6E60 /* GoTube-Info.plist */,
+				0391001B1966D72C00BC6E60 /* InfoPlist.strings */,
+				0391001E1966D72C00BC6E60 /* main.m */,
+				039100201966D72C00BC6E60 /* GoTube-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		03D4C9691963FE3A006AAFCE /* GoTubeTests */ = {
+		0391003A1966D72C00BC6E60 /* GoTubeTests */ = {
 			isa = PBXGroup;
 			children = (
-				03D4C96F1963FE3A006AAFCE /* GoTubeTests.m */,
-				03D4C96A1963FE3A006AAFCE /* Supporting Files */,
+				039100401966D72C00BC6E60 /* GoTubeTests.m */,
+				0391003B1966D72C00BC6E60 /* Supporting Files */,
 			);
 			path = GoTubeTests;
 			sourceTree = "<group>";
 		};
-		03D4C96A1963FE3A006AAFCE /* Supporting Files */ = {
+		0391003B1966D72C00BC6E60 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				03D4C96B1963FE3A006AAFCE /* GoTubeTests-Info.plist */,
-				03D4C96C1963FE3A006AAFCE /* InfoPlist.strings */,
+				0391003C1966D72C00BC6E60 /* GoTubeTests-Info.plist */,
+				0391003D1966D72C00BC6E60 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -158,13 +158,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		03D4C93D1963FE3A006AAFCE /* GoTube */ = {
+		0391000E1966D72C00BC6E60 /* GoTube */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 03D4C9731963FE3A006AAFCE /* Build configuration list for PBXNativeTarget "GoTube" */;
+			buildConfigurationList = 039100441966D72C00BC6E60 /* Build configuration list for PBXNativeTarget "GoTube" */;
 			buildPhases = (
-				03D4C93A1963FE3A006AAFCE /* Sources */,
-				03D4C93B1963FE3A006AAFCE /* Frameworks */,
-				03D4C93C1963FE3A006AAFCE /* Resources */,
+				0391000B1966D72C00BC6E60 /* Sources */,
+				0391000C1966D72C00BC6E60 /* Frameworks */,
+				0391000D1966D72C00BC6E60 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -172,42 +172,42 @@
 			);
 			name = GoTube;
 			productName = GoTube;
-			productReference = 03D4C93E1963FE3A006AAFCE /* GoTube.app */;
+			productReference = 0391000F1966D72C00BC6E60 /* GoTube.app */;
 			productType = "com.apple.product-type.application";
 		};
-		03D4C9611963FE3A006AAFCE /* GoTubeTests */ = {
+		039100321966D72C00BC6E60 /* GoTubeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 03D4C9761963FE3A006AAFCE /* Build configuration list for PBXNativeTarget "GoTubeTests" */;
+			buildConfigurationList = 039100471966D72C00BC6E60 /* Build configuration list for PBXNativeTarget "GoTubeTests" */;
 			buildPhases = (
-				03D4C95E1963FE3A006AAFCE /* Sources */,
-				03D4C95F1963FE3A006AAFCE /* Frameworks */,
-				03D4C9601963FE3A006AAFCE /* Resources */,
+				0391002F1966D72C00BC6E60 /* Sources */,
+				039100301966D72C00BC6E60 /* Frameworks */,
+				039100311966D72C00BC6E60 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				03D4C9681963FE3A006AAFCE /* PBXTargetDependency */,
+				039100391966D72C00BC6E60 /* PBXTargetDependency */,
 			);
 			name = GoTubeTests;
 			productName = GoTubeTests;
-			productReference = 03D4C9621963FE3A006AAFCE /* GoTubeTests.xctest */;
+			productReference = 039100331966D72C00BC6E60 /* GoTubeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		03D4C9361963FE3A006AAFCE /* Project object */ = {
+		039100071966D72B00BC6E60 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = HLP;
 				TargetAttributes = {
-					03D4C9611963FE3A006AAFCE = {
-						TestTargetID = 03D4C93D1963FE3A006AAFCE;
+					039100321966D72C00BC6E60 = {
+						TestTargetID = 0391000E1966D72C00BC6E60;
 					};
 				};
 			};
-			buildConfigurationList = 03D4C9391963FE3A006AAFCE /* Build configuration list for PBXProject "GoTube" */;
+			buildConfigurationList = 0391000A1966D72B00BC6E60 /* Build configuration list for PBXProject "GoTube" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -215,97 +215,97 @@
 				en,
 				Base,
 			);
-			mainGroup = 03D4C9351963FE3A006AAFCE;
-			productRefGroup = 03D4C93F1963FE3A006AAFCE /* Products */;
+			mainGroup = 039100061966D72B00BC6E60;
+			productRefGroup = 039100101966D72C00BC6E60 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				03D4C93D1963FE3A006AAFCE /* GoTube */,
-				03D4C9611963FE3A006AAFCE /* GoTubeTests */,
+				0391000E1966D72C00BC6E60 /* GoTube */,
+				039100321966D72C00BC6E60 /* GoTubeTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		03D4C93C1963FE3A006AAFCE /* Resources */ = {
+		0391000D1966D72C00BC6E60 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03D4C9581963FE3A006AAFCE /* Main_iPad.storyboard in Resources */,
-				03D4C95D1963FE3A006AAFCE /* Images.xcassets in Resources */,
-				03D4C9551963FE3A006AAFCE /* Main_iPhone.storyboard in Resources */,
-				03D4C94C1963FE3A006AAFCE /* InfoPlist.strings in Resources */,
+				039100291966D72C00BC6E60 /* Main_iPad.storyboard in Resources */,
+				0391002E1966D72C00BC6E60 /* Images.xcassets in Resources */,
+				039100261966D72C00BC6E60 /* Main_iPhone.storyboard in Resources */,
+				0391001D1966D72C00BC6E60 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		03D4C9601963FE3A006AAFCE /* Resources */ = {
+		039100311966D72C00BC6E60 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03D4C96E1963FE3A006AAFCE /* InfoPlist.strings in Resources */,
+				0391003F1966D72C00BC6E60 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		03D4C93A1963FE3A006AAFCE /* Sources */ = {
+		0391000B1966D72C00BC6E60 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03D4C95B1963FE3A006AAFCE /* ViewController.m in Sources */,
-				03D4C9521963FE3A006AAFCE /* AppDelegate.m in Sources */,
-				03D4C94E1963FE3A006AAFCE /* main.m in Sources */,
+				0391002C1966D72C00BC6E60 /* ViewController.m in Sources */,
+				039100231966D72C00BC6E60 /* AppDelegate.m in Sources */,
+				0391001F1966D72C00BC6E60 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		03D4C95E1963FE3A006AAFCE /* Sources */ = {
+		0391002F1966D72C00BC6E60 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03D4C9701963FE3A006AAFCE /* GoTubeTests.m in Sources */,
+				039100411966D72C00BC6E60 /* GoTubeTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		03D4C9681963FE3A006AAFCE /* PBXTargetDependency */ = {
+		039100391966D72C00BC6E60 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 03D4C93D1963FE3A006AAFCE /* GoTube */;
-			targetProxy = 03D4C9671963FE3A006AAFCE /* PBXContainerItemProxy */;
+			target = 0391000E1966D72C00BC6E60 /* GoTube */;
+			targetProxy = 039100381966D72C00BC6E60 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		03D4C94A1963FE3A006AAFCE /* InfoPlist.strings */ = {
+		0391001B1966D72C00BC6E60 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				03D4C94B1963FE3A006AAFCE /* en */,
+				0391001C1966D72C00BC6E60 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		03D4C9531963FE3A006AAFCE /* Main_iPhone.storyboard */ = {
+		039100241966D72C00BC6E60 /* Main_iPhone.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				03D4C9541963FE3A006AAFCE /* Base */,
+				039100251966D72C00BC6E60 /* Base */,
 			);
 			name = Main_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
-		03D4C9561963FE3A006AAFCE /* Main_iPad.storyboard */ = {
+		039100271966D72C00BC6E60 /* Main_iPad.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				03D4C9571963FE3A006AAFCE /* Base */,
+				039100281966D72C00BC6E60 /* Base */,
 			);
 			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
-		03D4C96C1963FE3A006AAFCE /* InfoPlist.strings */ = {
+		0391003D1966D72C00BC6E60 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				03D4C96D1963FE3A006AAFCE /* en */,
+				0391003E1966D72C00BC6E60 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -313,7 +313,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		03D4C9711963FE3A006AAFCE /* Debug */ = {
+		039100421966D72C00BC6E60 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -352,7 +352,7 @@
 			};
 			name = Debug;
 		};
-		03D4C9721963FE3A006AAFCE /* Release */ = {
+		039100431966D72C00BC6E60 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -385,7 +385,7 @@
 			};
 			name = Release;
 		};
-		03D4C9741963FE3A006AAFCE /* Debug */ = {
+		039100451966D72C00BC6E60 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -398,7 +398,7 @@
 			};
 			name = Debug;
 		};
-		03D4C9751963FE3A006AAFCE /* Release */ = {
+		039100461966D72C00BC6E60 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -411,7 +411,7 @@
 			};
 			name = Release;
 		};
-		03D4C9771963FE3A006AAFCE /* Debug */ = {
+		039100481966D72C00BC6E60 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GoTube.app/GoTube";
@@ -433,7 +433,7 @@
 			};
 			name = Debug;
 		};
-		03D4C9781963FE3A006AAFCE /* Release */ = {
+		039100491966D72C00BC6E60 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GoTube.app/GoTube";
@@ -454,32 +454,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		03D4C9391963FE3A006AAFCE /* Build configuration list for PBXProject "GoTube" */ = {
+		0391000A1966D72B00BC6E60 /* Build configuration list for PBXProject "GoTube" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				03D4C9711963FE3A006AAFCE /* Debug */,
-				03D4C9721963FE3A006AAFCE /* Release */,
+				039100421966D72C00BC6E60 /* Debug */,
+				039100431966D72C00BC6E60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		03D4C9731963FE3A006AAFCE /* Build configuration list for PBXNativeTarget "GoTube" */ = {
+		039100441966D72C00BC6E60 /* Build configuration list for PBXNativeTarget "GoTube" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				03D4C9741963FE3A006AAFCE /* Debug */,
-				03D4C9751963FE3A006AAFCE /* Release */,
+				039100451966D72C00BC6E60 /* Debug */,
+				039100461966D72C00BC6E60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		03D4C9761963FE3A006AAFCE /* Build configuration list for PBXNativeTarget "GoTubeTests" */ = {
+		039100471966D72C00BC6E60 /* Build configuration list for PBXNativeTarget "GoTubeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				03D4C9771963FE3A006AAFCE /* Debug */,
-				03D4C9781963FE3A006AAFCE /* Release */,
+				039100481966D72C00BC6E60 /* Debug */,
+				039100491966D72C00BC6E60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 03D4C9361963FE3A006AAFCE /* Project object */;
+	rootObject = 039100071966D72B00BC6E60 /* Project object */;
 }

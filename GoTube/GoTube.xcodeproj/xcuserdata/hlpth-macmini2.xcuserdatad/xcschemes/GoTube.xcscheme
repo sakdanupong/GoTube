@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "03D4C93D1963FE3A006AAFCE"
+               BlueprintIdentifier = "0391000E1966D72C00BC6E60"
                BuildableName = "GoTube.app"
                BlueprintName = "GoTube"
                ReferencedContainer = "container:GoTube.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "03D4C9611963FE3A006AAFCE"
+               BlueprintIdentifier = "039100321966D72C00BC6E60"
                BuildableName = "GoTubeTests.xctest"
                BlueprintName = "GoTubeTests"
                ReferencedContainer = "container:GoTube.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "03D4C93D1963FE3A006AAFCE"
+            BlueprintIdentifier = "0391000E1966D72C00BC6E60"
             BuildableName = "GoTube.app"
             BlueprintName = "GoTube"
             ReferencedContainer = "container:GoTube.xcodeproj">
@@ -61,7 +61,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "03D4C93D1963FE3A006AAFCE"
+            BlueprintIdentifier = "0391000E1966D72C00BC6E60"
             BuildableName = "GoTube.app"
             BlueprintName = "GoTube"
             ReferencedContainer = "container:GoTube.xcodeproj">
@@ -79,7 +79,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "03D4C93D1963FE3A006AAFCE"
+            BlueprintIdentifier = "0391000E1966D72C00BC6E60"
             BuildableName = "GoTube.app"
             BlueprintName = "GoTube"
             ReferencedContainer = "container:GoTube.xcodeproj">

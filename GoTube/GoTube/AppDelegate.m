@@ -2,11 +2,33 @@
 //  AppDelegate.m
 //  GoTube
 //
-//  Created by HLPTH-MACMINI2 on 7/2/2557 BE.
+//  Created by HLPTH-MACMINI2 on 7/4/2557 BE.
 //  Copyright (c) 2557 HLP. All rights reserved.
 //
 
 #import "AppDelegate.h"
+
+
+// https://github.com/video-dl/video-dl-ios
+
+// https://github.com/hellozimi/HCYoutubeParser
+// https://github.com/0xced/XCDYouTubeKit
+// https://github.com/larcus94/LBYouTubeView
+// https://github.com/pbernery/PBYouTubeVideoViewController
+// https://github.com/steipete/PSYouTubeExtractor
+// https://github.com/mikeMTOL/KSVideoPlayer
+
+// http://stackoverflow.com/questions/3311795/youtube-video-download-url
+// http://stackoverflow.com/questions/5087249/save-youtube-video-to-iphone-in-the-app
+// http://blog.abhiomkar.in/2010/05/12/downloading-youtube-videos-using-python-one-liner/
+// http://stackoverflow.com/questions/16503166/getting-a-youtube-download-url-from-existing-url
+// http://stackoverflow.com/questions/2678051/can-t-download-youtube-video
+
+
+// reason
+// http://stackoverflow.com/questions/22316310/how-to-stop-xcode5-1-building-for-64bit
+// http://stackoverflow.com/questions/20122815/xcode-5-about-64-bits-architecture-and-backwards-compatibility
+
 
 @implementation AppDelegate
 
