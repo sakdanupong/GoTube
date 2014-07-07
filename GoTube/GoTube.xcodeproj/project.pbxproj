@@ -22,6 +22,8 @@
 		039100371966D72C00BC6E60 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 039100161966D72C00BC6E60 /* UIKit.framework */; };
 		0391003F1966D72C00BC6E60 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0391003D1966D72C00BC6E60 /* InfoPlist.strings */; };
 		039100411966D72C00BC6E60 /* GoTubeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 039100401966D72C00BC6E60 /* GoTubeTests.m */; };
+		039BB630196A8DD00044CA0D /* LBYouTubeExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 039BB62D196A8DD00044CA0D /* LBYouTubeExtractor.m */; };
+		039BB631196A8DD00044CA0D /* LBYouTubePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 039BB62F196A8DD00044CA0D /* LBYouTubePlayerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,11 @@
 		0391003C1966D72C00BC6E60 /* GoTubeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoTubeTests-Info.plist"; sourceTree = "<group>"; };
 		0391003E1966D72C00BC6E60 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		039100401966D72C00BC6E60 /* GoTubeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoTubeTests.m; sourceTree = "<group>"; };
+		039BB62B196A8DD00044CA0D /* LBYouTube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBYouTube.h; sourceTree = "<group>"; };
+		039BB62C196A8DD00044CA0D /* LBYouTubeExtractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBYouTubeExtractor.h; sourceTree = "<group>"; };
+		039BB62D196A8DD00044CA0D /* LBYouTubeExtractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBYouTubeExtractor.m; sourceTree = "<group>"; };
+		039BB62E196A8DD00044CA0D /* LBYouTubePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBYouTubePlayerViewController.h; sourceTree = "<group>"; };
+		039BB62F196A8DD00044CA0D /* LBYouTubePlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBYouTubePlayerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +121,7 @@
 		039100181966D72C00BC6E60 /* GoTube */ = {
 			isa = PBXGroup;
 			children = (
+				039BB629196A8DD00044CA0D /* Libs */,
 				039100211966D72C00BC6E60 /* AppDelegate.h */,
 				039100221966D72C00BC6E60 /* AppDelegate.m */,
 				039100241966D72C00BC6E60 /* Main_iPhone.storyboard */,
@@ -153,6 +161,26 @@
 				0391003D1966D72C00BC6E60 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		039BB629196A8DD00044CA0D /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				039BB62A196A8DD00044CA0D /* LBYouTubeView */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		039BB62A196A8DD00044CA0D /* LBYouTubeView */ = {
+			isa = PBXGroup;
+			children = (
+				039BB62B196A8DD00044CA0D /* LBYouTube.h */,
+				039BB62C196A8DD00044CA0D /* LBYouTubeExtractor.h */,
+				039BB62D196A8DD00044CA0D /* LBYouTubeExtractor.m */,
+				039BB62E196A8DD00044CA0D /* LBYouTubePlayerViewController.h */,
+				039BB62F196A8DD00044CA0D /* LBYouTubePlayerViewController.m */,
+			);
+			path = LBYouTubeView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,7 +283,9 @@
 			files = (
 				0391002C1966D72C00BC6E60 /* ViewController.m in Sources */,
 				039100231966D72C00BC6E60 /* AppDelegate.m in Sources */,
+				039BB630196A8DD00044CA0D /* LBYouTubeExtractor.m in Sources */,
 				0391001F1966D72C00BC6E60 /* main.m in Sources */,
+				039BB631196A8DD00044CA0D /* LBYouTubePlayerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,6 +500,7 @@
 				039100461966D72C00BC6E60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		039100471966D72C00BC6E60 /* Build configuration list for PBXNativeTarget "GoTubeTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +509,7 @@
 				039100491966D72C00BC6E60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
