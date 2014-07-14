@@ -8,11 +8,19 @@
 
 #import "ViewController.h"
 #import "LBYouTubeExtractor.h"
+#import "AFNetworking.h"
+#import <Foundation/Foundation.h>
 
 @interface ViewController ()
 
 @end
 #define kUserAgent @"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.79 Safari/537.4"
+//#define kUserAgent @"Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)"
+
+
+#define BASE_URL @"http://youtube.com/"
+#define GET_VIDEO_INFO @"get_video_info"
+#define GET_VIDEO @"get_video"
 
 @implementation ViewController
 
@@ -23,33 +31,44 @@
     
     NSDictionary *dictionary = [NSDictionary dictionaryWithObjectsAndKeys:kUserAgent, @"UserAgent", nil];
     [[NSUserDefaults standardUserDefaults] registerDefaults:dictionary];
-    NSString *token = [@"vjVQa1PpcFMR3uzc1JupjWtDZeEXsHFPV2dU6SPXdxY%3D" stringByReplacingPercentEscapesUsingEncoding:NSASCIIStringEncoding];
-    NSLog(@"%@", token);
-    
-    
-    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:@"http://www.youtube.com/get_video_info?video_id=ExIaidu4-Yw"]];
-    [request setHTTPMethod:@"GET"];
-    
-    
-    
-    NSURLResponse *response = nil;
-    NSError *error = nil;
-    NSData *responseData = [NSURLConnection sendSynchronousRequest:request returningResponse:&response error:&error];
-    
-    if (!error) {
-        NSString *responseString = [[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding];
-        NSLog(@"responseString = %@", responseString);
-        NSLog(@"response =  %@", response.URL);
-        
-        NSMutableDictionary *parts = [self dictionaryFromQueryStringComponents:responseString];
-        NSString *dd =[parts objectForKey:@"url_encoded_fmt_stream_map"];
-        NSLog(@"%@", dd);
-//        NSMutableDictionary *url_encoded_fmt_stream_map = [self dictionaryFromQueryStringComponents:];
 
-    }
+    
+    
+//    NSString *token = [@"vjVQa1PpcFMR3uzc1JupjWtDZeEXsHFPV2dU6SPXdxY%3D" stringByReplacingPercentEscapesUsingEncoding:NSASCIIStringEncoding];
+//    NSLog(@"%@", token);
+//    
+//    
+//    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:@"http://www.youtube.com/get_video_info?video_id=ExIaidu4-Yw"]];
+//    [request setHTTPMethod:@"GET"];
+//    
+//    
+//    
+//    NSURLResponse *response = nil;
+//    NSError *error = nil;
+//    NSData *responseData = [NSURLConnection sendSynchronousRequest:request returningResponse:&response error:&error];
+//    
+//    if (!error) {
+//        NSString *responseString = [[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding];
+//        NSLog(@"responseString = %@", responseString);
+//        NSLog(@"response =  %@", response.URL);
+//        
+//        NSMutableDictionary *parts = [self dictionaryFromQueryStringComponents:responseString];
+//        NSString *dd =[parts objectForKey:@"url_encoded_fmt_stream_map"];
+//        NSLog(@"%@", dd);
+////        NSMutableDictionary *url_encoded_fmt_stream_map = [self dictionaryFromQueryStringComponents:];
+//
+//    }
+//
+//    [self createVideoFolder];
+//    NSString *pathTODocs = [self getApplicationSupportVideoPath];
+//
+    
 
-    [self createVideoFolder];
-    NSString *pathTODocs = [self getApplicationSupportVideoPath];
+    
+
+    
+
+    
     
     
 //    LBYouTubeExtractor *extractor = [[LBYouTubeExtractor alloc] initWithURL:[NSURL URLWithString:[NSString stringWithFormat:(@"http://www.youtube.com/watch?v=%@"), @"ExIaidu4-Yw" ]] quality:LBYouTubeVideoQualityLarge];
@@ -69,7 +88,89 @@
 //        }
 //    }];
 
+    AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
+    manager.responseSerializer = [AFHTTPResponseSerializer serializer];
+    NSString *getVDOInfoUrl = [self getVideoInfoUrl:@"ExIaidu4-Yw"];
+    [manager GET:getVDOInfoUrl parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
+        NSString *responseString = [[NSString alloc] initWithData:responseObject encoding:NSUTF8StringEncoding];
+        NSMutableDictionary *dict = [self dictionaryFromQueryStringComponents:responseString];
+//        NSLog(@"%@", dict);
+//        NSArray *tokenArr = [dict objectForKey:@"token"];
+//        NSString *token = [tokenArr objectAtIndex:0];
+//        NSString *getVideoUrl = [self getVideoUrl:@"ExIaidu4-Yw" token:token];
+//        NSLog(@"%@", getVideoUrl);
+//        [self getVideoFromVideoUrl:getVideoUrl];
+        
+        NSArray *map = [dict objectForKey:@"url_encoded_fmt_stream_map"];
+        NSString *str_map = [map objectAtIndex:0];
+        NSMutableDictionary *map_dict = [self dictionaryFromQueryStringComponents:str_map];
+//        NSLog(@"map %@", map_dict);
+        
+        NSArray *s_array = [map_dict objectForKey:@"s"];
+        NSString *s = [s_array objectAtIndex:0];
+//        NSLog(@"signature %@", s);
+
+        NSArray *url_array = [map_dict objectForKey:@"url"];
+        NSString *url = [url_array objectAtIndex:0];
+        NSLog(@"url %@", [@"http://r7---sn-w5nuxa-c33e7.googlevideo.com/videoplayback?mws=yes&ms=au&ip=171.6.150.139&mt=1405199763&key=yt5&source=youtube&upn=DuHBK9K8a54&mv=m&sparams=id%2Cip%2Cipbits%2Citag%2Cratebypass%2Csource%2Cupn%2Cexpire&id=o-AJZbUhdVQP8eOfRSAjqcbgXXSV7B7bZISbTSMijuiAYY&sver=3&ipbits=0&fexp=902408%2C916636%2C924213%2C924217%2C924222%2C929305%2C930008%2C931975%2C934024%2C934030%2C936927%2C938672%2C945242%2C946021&itag=43&ratebypass=yes&expire=1405224000&signature=47701AF30C92B1697FB580BA3587DD4F4354A863.1E53A91F23DFB51152639A196FB145F16371F6DF" stringByReplacingPercentEscapesUsingEncoding:NSASCIIStringEncoding]);
+        
+        NSString *urlForDownload = [NSString stringWithFormat:@"%@&signature=%@", url , s];
+
+        NSLog(@"%@", urlForDownload);
+        NSURLSessionConfiguration *configuration = [NSURLSessionConfiguration defaultSessionConfiguration];
+        AFURLSessionManager *manager = [[AFURLSessionManager alloc] initWithSessionConfiguration:configuration];
+        
+        NSURL *URL = [NSURL URLWithString:urlForDownload];
+        NSURLRequest *request = [NSURLRequest requestWithURL:URL];
+        
+        NSURLSessionDownloadTask *downloadTask = [manager downloadTaskWithRequest:request progress:nil destination:^NSURL *(NSURL *targetPath, NSURLResponse *response) {
+            NSURL *documentsDirectoryURL = [[NSFileManager defaultManager] URLForDirectory:NSDocumentDirectory inDomain:NSUserDomainMask appropriateForURL:nil create:NO error:nil];
+            return [documentsDirectoryURL URLByAppendingPathComponent:[response suggestedFilename]];
+        } completionHandler:^(NSURLResponse *response, NSURL *filePath, NSError *error) {
+            NSLog(@"File downloaded to: %@", filePath);
+        }];
+        [downloadTask resume];
+        
+        
+    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        NSLog(@"Error: %@", error);
+    }];
+
+}
+
+
+
+
+- (void)getVideoFromVideoUrl:(NSString*)url {
+    AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
+    [manager HEAD:url parameters:nil success:^(AFHTTPRequestOperation *operation) {
+         NSLog(@"success = %@", operation);
+    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        NSLog(@"error = %@", operation);
+    }];
+//    [manager GET:url parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
+//        NSLog(@"success = %@", operation);
+//    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+//        NSLog(@"error = %@", operation);
+////        [operation setRedirectResponseBlock:^NSURLRequest *(NSURLConnection *connection, NSURLRequest *request, NSURLResponse *redirectResponse) {
+////            NSLog(@"Response: %@", redirectResponse.debugDescription);
+////            NSLog(@"Request: %@", request.debugDescription);
+////            return request;
+////        }];
+//    }];
     
+}
+
+- (NSString*)getVideoUrl:(NSString*)video_id token:(NSString*)token {
+    return [NSString stringWithFormat:@"%@%@?%@&t=%@&fmt=18&asv=2", BASE_URL, GET_VIDEO, [self getParameterWithVideoId:video_id], token];
+}
+
+- (NSString *)getVideoInfoUrl:(NSString*)video_id {
+   return [NSString stringWithFormat:@"%@%@?%@&asv=3&el=detailpage&hl=en_US", BASE_URL, GET_VIDEO_INFO, [self getParameterWithVideoId:video_id]];
+}
+
+- (NSString *)getParameterWithVideoId:(NSString*)video_id {
+    return [NSString stringWithFormat:@"video_id=%@",video_id];
 }
 
 - (NSString *)stringByDecodingURLFormat:(NSString*)responseString {
