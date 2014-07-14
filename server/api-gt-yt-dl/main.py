@@ -18,16 +18,32 @@ import webapp2
 import sys
 import os
 import pafy
+import json
 
 class MainHandler(webapp2.RequestHandler):
     def get(self):
         self.response.write('Hello world!')
-        url = "https://www.youtube.com/watch?v=b64L7SY624k"
+        #  solution 1
+        # url = "http://www.youtube.com/watch?v=b64L7SY624k"
+        # video = pafy.new(url)
+        # best = video.getbest()
+        # print(best.url)
+
+class GetDownloadUrl(webapp2.RequestHandler):
+    def get(self):
+        url = self.request.get("url")
+        #  solution 1
         video = pafy.new(url)
-        streams = video.streams
-        for s in streams:
-        	print(s.resolution, s.extension, s.get_filesize(), s.url)
+        best = video.getbest()
+        self.response.headers['Content-Type'] = "application/json"
+
+        dict = {
+        	"data":best.url
+        }
+
+        self.response.out.write(json.dumps(dict))
 
 app = webapp2.WSGIApplication([
-    ('/', MainHandler)
+    ('/', MainHandler),
+    ('/get_download_url', GetDownloadUrl)
 ], debug=True)

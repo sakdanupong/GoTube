@@ -1,4 +1,4 @@
-application: tube-dl
+application: api-gt-yt-dl
 version: 1
 runtime: python27
 api_version: 1

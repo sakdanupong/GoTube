@@ -33,6 +33,9 @@
     [[NSUserDefaults standardUserDefaults] registerDefaults:dictionary];
 
     
+    //url for dowload video is
+    // http://api-gt-yt-dl.appspot.com/get_download_url?url=http://www.youtube.com/watch?v=R5wA8wr5ccg
+    
     
 //    NSString *token = [@"vjVQa1PpcFMR3uzc1JupjWtDZeEXsHFPV2dU6SPXdxY%3D" stringByReplacingPercentEscapesUsingEncoding:NSASCIIStringEncoding];
 //    NSLog(@"%@", token);
